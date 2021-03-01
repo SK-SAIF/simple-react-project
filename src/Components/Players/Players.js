@@ -1,6 +1,9 @@
 import React from 'react';
 import './Player.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee , faUserPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Players = (props) => {
     const playerData = props.playersInfo;
@@ -20,7 +23,7 @@ const Players = (props) => {
                             <p className="card-text">Salary:${pl.salary}</p>
 
                             <hr />
-                            <button onClick={()=>button(pl)} className="btn btn-primary" >Add This Player</button>
+                            <button onClick={()=>button(pl)} className="btn btn-primary" ><FontAwesomeIcon icon={faUserPlus} />Add This Player</button>
                         </div>
                     </div>
                 </div>

@@ -19,7 +19,7 @@ function App() {
       
       <div className="players-container">
         <Players playersInfo={fakeData} eventHandler={buttonHandler}></Players>
-
+        
       </div>
       <div className="added-player">
         <Cart added={addPlayer}></Cart>

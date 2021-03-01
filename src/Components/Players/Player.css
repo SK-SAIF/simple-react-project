@@ -1,0 +1,15 @@
+/* .each-player-style{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+
+}
+.each-player-style img{
+    height: 100px;
+} */
+
+.each-player{
+    border: 5px solid rgb(30, 160, 219);
+    border-radius: 10px;
+    margin: 10px;
+}

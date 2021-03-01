@@ -1,0 +1,10 @@
+.player-cart h1{
+    border: 5px solid salmon;
+    width: 250px;
+    border-radius: 10px;
+}
+.player-cart li{
+    border: 5px solid salmon;
+    width: 250px;
+    border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+.budget h2{
+    border: 5px solid cyan;
+    width: 250px;
+    border-radius: 10px;
+}
+.budget p{
+    border: 5px solid cyan;
+    width: 250px;
+    border-radius: 10px;
+}
